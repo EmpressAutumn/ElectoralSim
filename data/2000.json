@@ -1,0 +1,565 @@
+{
+  "id": "2000",
+  "regions": {
+    "AL": {
+      "Bush": 941173,
+      "Gore": 692611,
+      "Nader": 18323,
+      "Buchanan": 6351,
+      "Browne": 5893,
+      "Phillips": 775,
+      "Hagelin": 447,
+      "others": 699
+    },
+    "AK": {
+      "Bush": 167398,
+      "Gore": 79004,
+      "Nader": 28747,
+      "Buchanan": 5192,
+      "Browne": 2636,
+      "Phillips": 596,
+      "Hagelin": 919,
+      "others": 1068
+    },
+    "AZ": {
+      "Bush": 781652,
+      "Gore": 685341,
+      "Nader": 45645,
+      "Buchanan": 12373,
+      "Browne": 0,
+      "Phillips": 110,
+      "Hagelin": 1120,
+      "others": 5775
+    },
+    "AR": {
+      "Bush": 472940,
+      "Gore": 422768,
+      "Nader": 13421,
+      "Buchanan": 7358,
+      "Browne": 2781,
+      "Phillips": 1415,
+      "Hagelin": 1098,
+      "others": 0
+    },
+    "CA": {
+      "Bush": 4567429,
+      "Gore": 5861203,
+      "Nader": 418707,
+      "Buchanan": 44987,
+      "Browne": 45520,
+      "Phillips": 17042,
+      "Hagelin": 10934,
+      "others": 34
+    },
+    "CO": {
+      "Bush": 883748,
+      "Gore": 738227,
+      "Nader": 91434,
+      "Buchanan": 10465,
+      "Browne": 12799,
+      "Phillips": 1319,
+      "Hagelin": 2240,
+      "others": 1136
+    },
+    "CT": {
+      "Bush": 561094,
+      "Gore": 816015,
+      "Nader": 64452,
+      "Buchanan": 4731,
+      "Browne": 3484,
+      "Phillips": 9695,
+      "Hagelin": 40,
+      "others": 14
+    },
+    "DE": {
+      "Bush": 137288,
+      "Gore": 180068,
+      "Nader": 8307,
+      "Buchanan": 777,
+      "Browne": 774,
+      "Phillips": 208,
+      "Hagelin": 107,
+      "others": 93
+    },
+    "DC": {
+      "Bush": 18073,
+      "Gore": 171923,
+      "Nader": 10576,
+      "Buchanan": 0,
+      "Browne": 669,
+      "Phillips": 0,
+      "Hagelin": 0,
+      "others": 653
+    },
+    "FL": {
+      "Bush": 2912790,
+      "Gore": 2912253,
+      "Nader": 97488,
+      "Buchanan": 17484,
+      "Browne": 16415,
+      "Phillips": 1371,
+      "Hagelin": 2281,
+      "others": 3028
+    },
+    "GA": {
+      "Bush": 1419720,
+      "Gore": 1116230,
+      "Nader": 13432,
+      "Buchanan": 10926,
+      "Browne": 36332,
+      "Phillips": 140,
+      "Hagelin": 0,
+      "others": 24
+    },
+    "HI": {
+      "Bush": 137845,
+      "Gore": 205286,
+      "Nader": 21623,
+      "Buchanan": 1071,
+      "Browne": 1477,
+      "Phillips": 343,
+      "Hagelin": 306,
+      "others": 0
+    },
+    "ID": {
+      "Bush": 336937,
+      "Gore": 138637,
+      "Nader": 12292,
+      "Buchanan": 7615,
+      "Browne": 3488,
+      "Phillips": 1469,
+      "Hagelin": 1177,
+      "others": 6
+    },
+    "IL": {
+      "Bush": 2019421,
+      "Gore": 2589026,
+      "Nader": 103759,
+      "Buchanan": 16106,
+      "Browne": 11623,
+      "Phillips": 57,
+      "Hagelin": 2127,
+      "others": 4
+    },
+    "IN": {
+      "Bush": 1245836,
+      "Gore": 901980,
+      "Nader": 18531,
+      "Buchanan": 16959,
+      "Browne": 15530,
+      "Phillips": 200,
+      "Hagelin": 167,
+      "others": 99
+    },
+    "IA": {
+      "Bush": 634373,
+      "Gore": 638517,
+      "Nader": 29374,
+      "Buchanan": 5731,
+      "Browne": 3209,
+      "Phillips": 613,
+      "Hagelin": 2281,
+      "others": 1465
+    },
+    "KS": {
+      "Bush": 622332,
+      "Gore": 399276,
+      "Nader": 36086,
+      "Buchanan": 7370,
+      "Browne": 4525,
+      "Phillips": 1254,
+      "Hagelin": 1375,
+      "others": 0
+    },
+    "KY": {
+      "Bush": 872492,
+      "Gore": 638898,
+      "Nader": 23192,
+      "Buchanan": 4173,
+      "Browne": 2896,
+      "Phillips": 923,
+      "Hagelin": 1533,
+      "others": 80
+    },
+    "LA": {
+      "Bush": 927871,
+      "Gore": 792344,
+      "Nader": 20473,
+      "Buchanan": 14356,
+      "Browne": 2951,
+      "Phillips": 5483,
+      "Hagelin": 1075,
+      "others": 1103
+    },
+    "ME-al": {
+      "Bush": 286616,
+      "Gore": 319951,
+      "Nader": 37127,
+      "Buchanan": 4443,
+      "Browne": 3074,
+      "Phillips": 579,
+      "Hagelin": 0,
+      "others": 27
+    },
+    "ME-01": {
+      "Bush": 148618,
+      "Gore": 176293,
+      "Nader": 20297,
+      "Buchanan": 1994,
+      "Browne": 1479,
+      "Phillips": 253,
+      "Hagelin": 0,
+      "others": 17
+    },
+    "ME-02": {
+      "Bush": 137998,
+      "Gore": 143658,
+      "Nader": 16830,
+      "Buchanan": 2449,
+      "Browne": 1595,
+      "Phillips": 326,
+      "Hagelin": 0,
+      "others": 10
+    },
+    "MD": {
+      "Bush": 813797,
+      "Gore": 1145782,
+      "Nader": 53768,
+      "Buchanan": 4248,
+      "Browne": 5310,
+      "Phillips": 919,
+      "Hagelin": 176,
+      "others": 1480
+    },
+    "MA": {
+      "Bush": 878502,
+      "Gore": 1616487,
+      "Nader": 173564,
+      "Buchanan": 11149,
+      "Browne": 16366,
+      "Phillips": 0,
+      "Hagelin": 2884,
+      "others": 4032
+    },
+    "MI": {
+      "Bush": 1953139,
+      "Gore": 2170418,
+      "Nader": 84165,
+      "Buchanan": 1851,
+      "Browne": 16711,
+      "Phillips": 3791,
+      "Hagelin": 2426,
+      "others": 0
+    },
+    "MN": {
+      "Bush": 1109659,
+      "Gore": 1168266,
+      "Nader": 126696,
+      "Buchanan": 22166,
+      "Browne": 5282,
+      "Phillips": 3272,
+      "Hagelin": 2294,
+      "others": 1050
+    },
+    "MS": {
+      "Bush": 572844,
+      "Gore": 404614,
+      "Nader": 8122,
+      "Buchanan": 2265,
+      "Browne": 2009,
+      "Phillips": 3267,
+      "Hagelin": 450,
+      "others": 613
+    },
+    "MO": {
+      "Bush": 1189924,
+      "Gore": 1111138,
+      "Nader": 38515,
+      "Buchanan": 9818,
+      "Browne": 7436,
+      "Phillips": 1957,
+      "Hagelin": 1104,
+      "others": 0
+    },
+    "MT": {
+      "Bush": 240178,
+      "Gore": 137126,
+      "Nader": 24437,
+      "Buchanan": 5697,
+      "Browne": 1718,
+      "Phillips": 1155,
+      "Hagelin": 675,
+      "others": 11
+    },
+    "NE-al": {
+      "Bush": 433862,
+      "Gore": 231780,
+      "Nader": 24540,
+      "Buchanan": 3646,
+      "Browne": 2245,
+      "Phillips": 468,
+      "Hagelin": 478,
+      "others": 0
+    },
+    "NE-01": {
+      "Bush": 142562,
+      "Gore": 86946,
+      "Nader": 10085,
+      "Buchanan": 1324,
+      "Browne": 754,
+      "Phillips": 167,
+      "Hagelin": 185,
+      "others": 0
+    },
+    "NE-02": {
+      "Bush": 131485,
+      "Gore": 88975,
+      "Nader": 8495,
+      "Buchanan": 845,
+      "Browne": 925,
+      "Phillips": 146,
+      "Hagelin": 141,
+      "others": 0
+    },
+    "NE-03": {
+      "Bush": 159815,
+      "Gore": 55859,
+      "Nader": 5960,
+      "Buchanan": 1477,
+      "Browne": 566,
+      "Phillips": 155,
+      "Hagelin": 152,
+      "others": 0
+    },
+    "NV": {
+      "Bush": 301575,
+      "Gore": 279978,
+      "Nader": 15008,
+      "Buchanan": 4747,
+      "Browne": 3311,
+      "Phillips": 621,
+      "Hagelin": 415,
+      "others": 3315
+    },
+    "NH": {
+      "Bush": 273559,
+      "Gore": 266348,
+      "Nader": 22198,
+      "Buchanan": 2615,
+      "Browne": 2757,
+      "Phillips": 328,
+      "Hagelin": 55,
+      "others": 1221
+    },
+    "NJ": {
+      "Bush": 1284173,
+      "Gore": 1788850,
+      "Nader": 94554,
+      "Buchanan": 6989,
+      "Browne": 6312,
+      "Phillips": 1409,
+      "Hagelin": 2215,
+      "others": 2724
+    },
+    "NM": {
+      "Bush": 286417,
+      "Gore": 286783,
+      "Nader": 21251,
+      "Buchanan": 1392,
+      "Browne": 2058,
+      "Phillips": 343,
+      "Hagelin": 361,
+      "others": 0
+    },
+    "NY": {
+      "Bush": 2403374,
+      "Gore": 4107697,
+      "Nader": 244030,
+      "Buchanan": 31599,
+      "Browne": 7649,
+      "Phillips": 1498,
+      "Hagelin": 24361,
+      "others": 1791
+    },
+    "NC": {
+      "Bush": 1631163,
+      "Gore": 1257692,
+      "Nader": 0,
+      "Buchanan": 8874,
+      "Browne": 12307,
+      "Phillips": 0,
+      "Hagelin": 0,
+      "others": 1226
+    },
+    "ND": {
+      "Bush": 174852,
+      "Gore": 95284,
+      "Nader": 9486,
+      "Buchanan": 7288,
+      "Browne": 660,
+      "Phillips": 373,
+      "Hagelin": 313,
+      "others": 0
+    },
+    "OH": {
+      "Bush": 2351209,
+      "Gore": 2186190,
+      "Nader": 117857,
+      "Buchanan": 26724,
+      "Browne": 13475,
+      "Phillips": 3823,
+      "Hagelin": 6169,
+      "others": 10
+    },
+    "OK": {
+      "Bush": 744337,
+      "Gore": 474276,
+      "Nader": 0,
+      "Buchanan": 9014,
+      "Browne": 6602,
+      "Phillips": 0,
+      "Hagelin": 0,
+      "others": 0
+    },
+    "OR": {
+      "Bush": 713577,
+      "Gore": 720342,
+      "Nader": 77357,
+      "Buchanan": 7063,
+      "Browne": 7447,
+      "Phillips": 2189,
+      "Hagelin": 2574,
+      "others": 3419
+    },
+    "PA": {
+      "Bush": 2281127,
+      "Gore": 2485967,
+      "Nader": 103392,
+      "Buchanan": 16023,
+      "Browne": 11248,
+      "Phillips": 14428,
+      "Hagelin": 0,
+      "others": 934
+    },
+    "RI": {
+      "Bush": 130555,
+      "Gore": 249508,
+      "Nader": 25052,
+      "Buchanan": 2273,
+      "Browne": 742,
+      "Phillips": 97,
+      "Hagelin": 271,
+      "others": 614
+    },
+    "SC": {
+      "Bush": 785937,
+      "Gore": 565561,
+      "Nader": 20200,
+      "Buchanan": 3519,
+      "Browne": 4876,
+      "Phillips": 1682,
+      "Hagelin": 942,
+      "others": 0
+    },
+    "SD": {
+      "Bush": 190700,
+      "Gore": 118804,
+      "Nader": 0,
+      "Buchanan": 3322,
+      "Browne": 1662,
+      "Phillips": 1781,
+      "Hagelin": 0,
+      "others": 0
+    },
+    "TN": {
+      "Bush": 1061949,
+      "Gore": 981720,
+      "Nader": 19781,
+      "Buchanan": 4250,
+      "Browne": 4284,
+      "Phillips": 1015,
+      "Hagelin": 613,
+      "others": 2569
+    },
+    "TX": {
+      "Bush": 3799639,
+      "Gore": 2433746,
+      "Nader": 137994,
+      "Buchanan": 12394,
+      "Browne": 23160,
+      "Phillips": 567,
+      "Hagelin": 0,
+      "others": 137
+    },
+    "UT": {
+      "Bush": 515096,
+      "Gore": 203053,
+      "Nader": 35850,
+      "Buchanan": 9319,
+      "Browne": 3616,
+      "Phillips": 2709,
+      "Hagelin": 763,
+      "others": 348
+    },
+    "VT": {
+      "Bush": 119775,
+      "Gore": 149022,
+      "Nader": 20374,
+      "Buchanan": 2192,
+      "Browne": 784,
+      "Phillips": 153,
+      "Hagelin": 219,
+      "others": 1789
+    },
+    "VA": {
+      "Bush": 1437490,
+      "Gore": 1217290,
+      "Nader": 59398,
+      "Buchanan": 5455,
+      "Browne": 15198,
+      "Phillips": 1809,
+      "Hagelin": 171,
+      "others": 2636
+    },
+    "WA": {
+      "Bush": 1108864,
+      "Gore": 1247652,
+      "Nader": 103002,
+      "Buchanan": 7171,
+      "Browne": 13135,
+      "Phillips": 1989,
+      "Hagelin": 2927,
+      "others": 2693
+    },
+    "WV": {
+      "Bush": 336475,
+      "Gore": 295497,
+      "Nader": 10680,
+      "Buchanan": 3169,
+      "Browne": 1912,
+      "Phillips": 23,
+      "Hagelin": 367,
+      "others": 1
+    },
+    "WI": {
+      "Bush": 1237279,
+      "Gore": 1242987,
+      "Nader": 94070,
+      "Buchanan": 11471,
+      "Browne": 6640,
+      "Phillips": 2042,
+      "Hagelin": 853,
+      "others": 3265
+    },
+    "WY": {
+      "Bush": 147947,
+      "Gore": 60481,
+      "Nader": 4625,
+      "Buchanan": 2724,
+      "Browne": 1443,
+      "Phillips": 720,
+      "Hagelin": 411,
+      "others": 0
+    }
+  }
+}

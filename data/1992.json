@@ -1,0 +1,397 @@
+{
+  "id": "1992",
+  "regions": {
+    "AL": {
+      "Clinton": 690080,
+      "Bush": 804283,
+      "Perot": 183109,
+      "Marrou": 5737,
+      "others": 4851
+    },
+    "AK": {
+      "Clinton": 78294,
+      "Bush": 102000,
+      "Perot": 73481,
+      "Marrou": 1378,
+      "others": 3353
+    },
+    "AZ": {
+      "Clinton": 543050,
+      "Bush": 572086,
+      "Perot": 353741,
+      "Marrou": 6759,
+      "others": 11339
+    },
+    "AR": {
+      "Clinton": 505823,
+      "Bush": 337324,
+      "Perot": 99132,
+      "Marrou": 1261,
+      "others": 7113
+    },
+    "CA": {
+      "Clinton": 5121325,
+      "Bush": 3630574,
+      "Perot": 2296006,
+      "Marrou": 48139,
+      "others": 35677
+    },
+    "CO": {
+      "Clinton": 629681,
+      "Bush": 562850,
+      "Perot": 366010,
+      "Marrou": 8669,
+      "others": 1970
+    },
+    "CT": {
+      "Clinton": 682318,
+      "Bush": 578313,
+      "Perot": 348771,
+      "Marrou": 5391,
+      "others": 1539
+    },
+    "DE": {
+      "Clinton": 126055,
+      "Bush": 102313,
+      "Perot": 59213,
+      "Marrou": 935,
+      "others": 1219
+    },
+    "DC": {
+      "Clinton": 192619,
+      "Bush": 20698,
+      "Perot": 9681,
+      "Marrou": 467,
+      "others": 4107
+    },
+    "FL": {
+      "Clinton": 2072798,
+      "Bush": 2173310,
+      "Perot": 1053067,
+      "Marrou": 15079,
+      "others": 238
+    },
+    "GA": {
+      "Clinton": 1008966,
+      "Bush": 995252,
+      "Perot": 309657,
+      "Marrou": 7110,
+      "others": 140
+    },
+    "HI": {
+      "Clinton": 179310,
+      "Bush": 136822,
+      "Perot": 53003,
+      "Marrou": 1119,
+      "others": 2588
+    },
+    "ID": {
+      "Clinton": 137013,
+      "Bush": 202645,
+      "Perot": 130395,
+      "Marrou": 1167,
+      "others": 10922
+    },
+    "IL": {
+      "Clinton": 2453350,
+      "Bush": 1734096,
+      "Perot": 840515,
+      "Marrou": 9218,
+      "others": 12978
+    },
+    "IN": {
+      "Clinton": 848420,
+      "Bush": 989375,
+      "Perot": 455934,
+      "Marrou": 7936,
+      "others": 4206
+    },
+    "IA": {
+      "Clinton": 586353,
+      "Bush": 504891,
+      "Perot": 253468,
+      "Marrou": 1076,
+      "others": 8819
+    },
+    "KS": {
+      "Clinton": 390434,
+      "Bush": 449951,
+      "Perot": 312358,
+      "Marrou": 4314,
+      "others": 179
+    },
+    "KY": {
+      "Clinton": 665104,
+      "Bush": 617178,
+      "Perot": 203944,
+      "Marrou": 4513,
+      "others": 2161
+    },
+    "LA": {
+      "Clinton": 815971,
+      "Bush": 733386,
+      "Perot": 211478,
+      "Marrou": 3155,
+      "others": 26027
+    },
+    "ME-al": {
+      "Clinton": 263420,
+      "Bush": 206504,
+      "Perot": 206820,
+      "Marrou": 1681,
+      "others": 1074
+    },
+    "ME-01": {
+      "Clinton": 145191,
+      "Bush": 115697,
+      "Perot": 102828,
+      "Marrou": 0,
+      "others": 0
+    },
+    "ME-02": {
+      "Clinton": 118229,
+      "Bush": 90807,
+      "Perot": 103992,
+      "Marrou": 0,
+      "others": 0
+    },
+    "MD": {
+      "Clinton": 988571,
+      "Bush": 707094,
+      "Perot": 281414,
+      "Marrou": 4715,
+      "others": 3252
+    },
+    "MA": {
+      "Clinton": 1318639,
+      "Bush": 805039,
+      "Perot": 630731,
+      "Marrou": 9021,
+      "others": 10234
+    },
+    "MI": {
+      "Clinton": 1871182,
+      "Bush": 1554940,
+      "Perot": 824813,
+      "Marrou": 10175,
+      "others": 13563
+    },
+    "MN": {
+      "Clinton": 1020997,
+      "Bush": 747841,
+      "Perot": 562506,
+      "Marrou": 3373,
+      "others": 13230
+    },
+    "MS": {
+      "Clinton": 400258,
+      "Bush": 487793,
+      "Perot": 85626,
+      "Marrou": 2154,
+      "others": 5962
+    },
+    "MO": {
+      "Clinton": 1053873,
+      "Bush": 811159,
+      "Perot": 518741,
+      "Marrou": 7497,
+      "others": 295
+    },
+    "MT": {
+      "Clinton": 154507,
+      "Bush": 144207,
+      "Perot": 107225,
+      "Marrou": 986,
+      "others": 3686
+    },
+    "NE-al": {
+      "Clinton": 217344,
+      "Bush": 344346,
+      "Perot": 174687,
+      "Marrou": 1344,
+      "others": 1562
+    },
+    "NE-01": {
+      "Clinton": 80696,
+      "Bush": 107081,
+      "Perot": 59974,
+      "Marrou": 0,
+      "others": 0
+    },
+    "NE-02": {
+      "Clinton": 78701,
+      "Bush": 115255,
+      "Perot": 48657,
+      "Marrou": 0,
+      "others": 0
+    },
+    "NE-03": {
+      "Clinton": 57467,
+      "Bush": 121342,
+      "Perot": 65473,
+      "Marrou": 0,
+      "others": 0
+    },
+    "NV": {
+      "Clinton": 189148,
+      "Bush": 175828,
+      "Perot": 132580,
+      "Marrou": 1835,
+      "others": 6927
+    },
+    "NH": {
+      "Clinton": 209040,
+      "Bush": 202484,
+      "Perot": 121337,
+      "Marrou": 3548,
+      "others": 1536
+    },
+    "NJ": {
+      "Clinton": 1436206,
+      "Bush": 1356865,
+      "Perot": 521829,
+      "Marrou": 6822,
+      "others": 21872
+    },
+    "NM": {
+      "Clinton": 261617,
+      "Bush": 212824,
+      "Perot": 91895,
+      "Marrou": 1615,
+      "others": 2035
+    },
+    "NY": {
+      "Clinton": 3444450,
+      "Bush": 2346649,
+      "Perot": 1090721,
+      "Marrou": 13451,
+      "others": 31662
+    },
+    "NC": {
+      "Clinton": 1114042,
+      "Bush": 1134661,
+      "Perot": 357864,
+      "Marrou": 5171,
+      "others": 112
+    },
+    "ND": {
+      "Clinton": 99168,
+      "Bush": 136244,
+      "Perot": 71084,
+      "Marrou": 416,
+      "others": 1221
+    },
+    "OH": {
+      "Clinton": 1984942,
+      "Bush": 1894310,
+      "Perot": 1036426,
+      "Marrou": 7252,
+      "others": 17034
+    },
+    "OK": {
+      "Clinton": 473066,
+      "Bush": 592929,
+      "Perot": 319878,
+      "Marrou": 4486,
+      "others": 0
+    },
+    "OR": {
+      "Clinton": 621314,
+      "Bush": 475757,
+      "Perot": 354091,
+      "Marrou": 4277,
+      "others": 7204
+    },
+    "PA": {
+      "Clinton": 2239164,
+      "Bush": 1791841,
+      "Perot": 902667,
+      "Marrou": 21477,
+      "others": 4661
+    },
+    "RI": {
+      "Clinton": 213302,
+      "Bush": 131601,
+      "Perot": 105045,
+      "Marrou": 571,
+      "others": 2959
+    },
+    "SC": {
+      "Clinton": 479514,
+      "Bush": 577507,
+      "Perot": 138872,
+      "Marrou": 2719,
+      "others": 3915
+    },
+    "SD": {
+      "Clinton": 124888,
+      "Bush": 136718,
+      "Perot": 73295,
+      "Marrou": 814,
+      "others": 539
+    },
+    "TN": {
+      "Clinton": 933521,
+      "Bush": 841300,
+      "Perot": 199968,
+      "Marrou": 1847,
+      "others": 6002
+    },
+    "TX": {
+      "Clinton": 2281815,
+      "Bush": 2496071,
+      "Perot": 1354781,
+      "Marrou": 19699,
+      "others": 1652
+    },
+    "UT": {
+      "Clinton": 183429,
+      "Bush": 322632,
+      "Perot": 203400,
+      "Marrou": 1900,
+      "others": 32638
+    },
+    "VT": {
+      "Clinton": 133592,
+      "Bush": 88122,
+      "Perot": 65991,
+      "Marrou": 501,
+      "others": 1495
+    },
+    "VA": {
+      "Clinton": 1038650,
+      "Bush": 1150517,
+      "Perot": 348639,
+      "Marrou": 5730,
+      "others": 15129
+    },
+    "WA": {
+      "Clinton": 993039,
+      "Bush": 731235,
+      "Perot": 541780,
+      "Marrou": 7533,
+      "others": 14641
+    },
+    "WV": {
+      "Clinton": 331001,
+      "Bush": 241974,
+      "Perot": 108829,
+      "Marrou": 1873,
+      "others": 0
+    },
+    "WI": {
+      "Clinton": 1041066,
+      "Bush": 930855,
+      "Perot": 544479,
+      "Marrou": 2877,
+      "others": 11837
+    },
+    "WY": {
+      "Clinton": 68160,
+      "Bush": 79347,
+      "Perot": 51263,
+      "Marrou": 844,
+      "others": 973
+    }
+  }
+}

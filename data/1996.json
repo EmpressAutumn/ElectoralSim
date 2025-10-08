@@ -1,0 +1,453 @@
+{
+  "id": "1996",
+  "regions": {
+    "AL": {
+      "Clinton": 662165,
+      "Dole": 769044,
+      "Perot": 92149,
+      "Nader": 0,
+      "Browne": 5290,
+      "others": 5701
+    },
+    "AK": {
+      "Clinton": 80380,
+      "Dole": 122746,
+      "Perot": 26333,
+      "Nader": 7597,
+      "Browne": 2276,
+      "others": 2288
+    },
+    "AZ": {
+      "Clinton": 653288,
+      "Dole": 622073,
+      "Perot": 112072,
+      "Nader": 2062,
+      "Browne": 14358,
+      "others": 552
+    },
+    "AR": {
+      "Clinton": 475171,
+      "Dole": 325416,
+      "Perot": 69884,
+      "Nader": 3649,
+      "Browne": 3076,
+      "others": 7066
+    },
+    "CA": {
+      "Clinton": 5119835,
+      "Dole": 3828380,
+      "Perot": 697847,
+      "Nader": 237016,
+      "Browne": 73600,
+      "others": 62806
+    },
+    "CO": {
+      "Clinton": 671152,
+      "Dole": 691848,
+      "Perot": 99629,
+      "Nader": 25070,
+      "Browne": 12392,
+      "others": 10613
+    },
+    "CT": {
+      "Clinton": 735740,
+      "Dole": 483109,
+      "Perot": 139523,
+      "Nader": 24321,
+      "Browne": 5788,
+      "others": 4133
+    },
+    "DE": {
+      "Clinton": 140355,
+      "Dole": 99062,
+      "Perot": 28719,
+      "Nader": 18,
+      "Browne": 2052,
+      "others": 639
+    },
+    "DC": {
+      "Clinton": 158220,
+      "Dole": 17339,
+      "Perot": 3611,
+      "Nader": 4780,
+      "Browne": 588,
+      "others": 1188
+    },
+    "FL": {
+      "Clinton": 2546870,
+      "Dole": 2244536,
+      "Perot": 483870,
+      "Nader": 4101,
+      "Browne": 23965,
+      "others": 452
+    },
+    "GA": {
+      "Clinton": 1053849,
+      "Dole": 1080843,
+      "Perot": 146337,
+      "Nader": 0,
+      "Browne": 17870,
+      "others": 172
+    },
+    "HI": {
+      "Clinton": 205012,
+      "Dole": 113943,
+      "Perot": 27358,
+      "Nader": 10386,
+      "Browne": 2493,
+      "others": 928
+    },
+    "ID": {
+      "Clinton": 165443,
+      "Dole": 256595,
+      "Perot": 62518,
+      "Nader": 0,
+      "Browne": 3325,
+      "others": 3838
+    },
+    "IL": {
+      "Clinton": 2341744,
+      "Dole": 1587021,
+      "Perot": 346408,
+      "Nader": 1447,
+      "Browne": 22548,
+      "others": 12223
+    },
+    "IN": {
+      "Clinton": 887424,
+      "Dole": 1006693,
+      "Perot": 224299,
+      "Nader": 1121,
+      "Browne": 15632,
+      "others": 673
+    },
+    "IA": {
+      "Clinton": 620258,
+      "Dole": 492644,
+      "Perot": 105159,
+      "Nader": 6550,
+      "Browne": 2315,
+      "others": 7149
+    },
+    "KS": {
+      "Clinton": 387659,
+      "Dole": 583245,
+      "Perot": 92639,
+      "Nader": 914,
+      "Browne": 4557,
+      "others": 5286
+    },
+    "KY": {
+      "Clinton": 636614,
+      "Dole": 623283,
+      "Perot": 120396,
+      "Nader": 701,
+      "Browne": 4009,
+      "others": 3705
+    },
+    "LA": {
+      "Clinton": 927837,
+      "Dole": 712586,
+      "Perot": 123293,
+      "Nader": 4719,
+      "Browne": 7499,
+      "others": 8025
+    },
+    "ME": {
+      "Clinton": 312788,
+      "Dole": 186378,
+      "Perot": 85970,
+      "Nader": 15279,
+      "Browne": 2996,
+      "others": 2486
+    },
+    "ME1": {
+      "Clinton": 165053,
+      "Dole": 100851,
+      "Perot": 39845,
+      "Nader": 0,
+      "Browne": 0,
+      "others": 11372
+    },
+    "ME2": {
+      "Clinton": 147735,
+      "Dole": 85527,
+      "Perot": 46125,
+      "Nader": 0,
+      "Browne": 0,
+      "others": 9389
+    },
+    "MD": {
+      "Clinton": 966207,
+      "Dole": 681530,
+      "Perot": 115812,
+      "Nader": 2606,
+      "Browne": 8765,
+      "others": 5950
+    },
+    "MA": {
+      "Clinton": 1571763,
+      "Dole": 718107,
+      "Perot": 227217,
+      "Nader": 4565,
+      "Browne": 20426,
+      "others": 14708
+    },
+    "MI": {
+      "Clinton": 1989653,
+      "Dole": 1481212,
+      "Perot": 336670,
+      "Nader": 2322,
+      "Browne": 27670,
+      "others": 11317
+    },
+    "MN": {
+      "Clinton": 1120438,
+      "Dole": 766476,
+      "Perot": 257704,
+      "Nader": 24908,
+      "Browne": 8271,
+      "others": 14843
+    },
+    "MS": {
+      "Clinton": 394022,
+      "Dole": 439838,
+      "Perot": 52222,
+      "Nader": 0,
+      "Browne": 2809,
+      "others": 4966
+    },
+    "MO": {
+      "Clinton": 1025935,
+      "Dole": 890016,
+      "Perot": 217188,
+      "Nader": 534,
+      "Browne": 10522,
+      "others": 13870
+    },
+    "MT": {
+      "Clinton": 167922,
+      "Dole": 179652,
+      "Perot": 55229,
+      "Nader": 0,
+      "Browne": 2526,
+      "others": 1932
+    },
+    "NE": {
+      "Clinton": 236761,
+      "Dole": 363467,
+      "Perot": 71278,
+      "Nader": 0,
+      "Browne": 2792,
+      "others": 3117
+    },
+    "NE1": {
+      "Clinton": 87713,
+      "Dole": 114560,
+      "Perot": 25973,
+      "Nader": 0,
+      "Browne": 0,
+      "others": 2074
+    },
+    "NE2": {
+      "Clinton": 84666,
+      "Dole": 116892,
+      "Perot": 18935,
+      "Nader": 0,
+      "Browne": 0,
+      "others": 2164
+    },
+    "NE3": {
+      "Clinton": 64382,
+      "Dole": 132015,
+      "Perot": 26370,
+      "Nader": 0,
+      "Browne": 0,
+      "others": 1658
+    },
+    "NV": {
+      "Clinton": 203974,
+      "Dole": 199244,
+      "Perot": 43986,
+      "Nader": 4730,
+      "Browne": 4460,
+      "others": 7885
+    },
+    "NH": {
+      "Clinton": 246214,
+      "Dole": 196532,
+      "Perot": 48390,
+      "Nader": 0,
+      "Browne": 4237,
+      "others": 3802
+    },
+    "NJ": {
+      "Clinton": 1652329,
+      "Dole": 1103078,
+      "Perot": 262134,
+      "Nader": 32465,
+      "Browne": 14763,
+      "others": 11038
+    },
+    "NM": {
+      "Clinton": 273495,
+      "Dole": 232751,
+      "Perot": 32257,
+      "Nader": 13218,
+      "Browne": 2996,
+      "others": 1357
+    },
+    "NY": {
+      "Clinton": 3756177,
+      "Dole": 1933492,
+      "Perot": 503458,
+      "Nader": 75956,
+      "Browne": 12220,
+      "others": 34826
+    },
+    "NC": {
+      "Clinton": 1107849,
+      "Dole": 1225938,
+      "Perot": 168059,
+      "Nader": 2108,
+      "Browne": 8740,
+      "others": 3113
+    },
+    "ND": {
+      "Clinton": 106905,
+      "Dole": 125050,
+      "Perot": 32515,
+      "Nader": 0,
+      "Browne": 847,
+      "others": 1094
+    },
+    "OH": {
+      "Clinton": 2148222,
+      "Dole": 1859883,
+      "Perot": 483207,
+      "Nader": 2962,
+      "Browne": 12851,
+      "others": 27309
+    },
+    "OK": {
+      "Clinton": 488105,
+      "Dole": 582315,
+      "Perot": 130788,
+      "Nader": 0,
+      "Browne": 5505,
+      "others": 0
+    },
+    "OR": {
+      "Clinton": 649641,
+      "Dole": 538152,
+      "Perot": 121221,
+      "Nader": 49415,
+      "Browne": 8903,
+      "others": 10428
+    },
+    "PA": {
+      "Clinton": 2215819,
+      "Dole": 1801169,
+      "Perot": 430984,
+      "Nader": 3086,
+      "Browne": 28000,
+      "others": 27060
+    },
+    "RI": {
+      "Clinton": 233050,
+      "Dole": 104683,
+      "Perot": 43723,
+      "Nader": 6040,
+      "Browne": 1109,
+      "others": 1679
+    },
+    "SC": {
+      "Clinton": 506283,
+      "Dole": 573458,
+      "Perot": 64386,
+      "Nader": 0,
+      "Browne": 4271,
+      "others": 3291
+    },
+    "SD": {
+      "Clinton": 139333,
+      "Dole": 150543,
+      "Perot": 31250,
+      "Nader": 0,
+      "Browne": 1472,
+      "others": 1228
+    },
+    "TN": {
+      "Clinton": 909146,
+      "Dole": 863530,
+      "Perot": 105918,
+      "Nader": 6427,
+      "Browne": 5020,
+      "others": 4064
+    },
+    "TX": {
+      "Clinton": 2459683,
+      "Dole": 2736167,
+      "Perot": 378537,
+      "Nader": 4810,
+      "Browne": 20256,
+      "others": 12191
+    },
+    "UT": {
+      "Clinton": 221633,
+      "Dole": 361911,
+      "Perot": 66461,
+      "Nader": 4615,
+      "Browne": 4129,
+      "others": 6880
+    },
+    "VT": {
+      "Clinton": 137894,
+      "Dole": 80352,
+      "Perot": 31024,
+      "Nader": 5585,
+      "Browne": 1183,
+      "others": 2411
+    },
+    "VA": {
+      "Clinton": 1091060,
+      "Dole": 1138350,
+      "Perot": 159861,
+      "Nader": 0,
+      "Browne": 9174,
+      "others": 18197
+    },
+    "WA": {
+      "Clinton": 1123323,
+      "Dole": 840712,
+      "Perot": 201003,
+      "Nader": 60322,
+      "Browne": 12522,
+      "others": 15955
+    },
+    "WV": {
+      "Clinton": 327812,
+      "Dole": 233946,
+      "Perot": 71639,
+      "Nader": 0,
+      "Browne": 3062,
+      "others": 0
+    },
+    "WI": {
+      "Clinton": 1071971,
+      "Dole": 845029,
+      "Perot": 227339,
+      "Nader": 28723,
+      "Browne": 7929,
+      "others": 15178
+    },
+    "WY": {
+      "Clinton": 77934,
+      "Dole": 105388,
+      "Perot": 25928,
+      "Nader": 0,
+      "Browne": 1739,
+      "others": 582
+    }
+  }
+}
