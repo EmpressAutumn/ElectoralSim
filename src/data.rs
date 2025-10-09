@@ -59,7 +59,7 @@ impl Election {
                 json[region.0][candidate.0] = serde_json::Value::Number(serde_json::Number::from(candidate.1.clone()))
             }
         }
-        
+
         let mut file = File::create(file_name).unwrap();
         file.write_all(serde_json::to_string_pretty(&json).unwrap().as_bytes()).expect("TODO: panic message");
     }
@@ -79,13 +79,16 @@ impl Election {
     pub(crate) fn get_votes_partial(&self, candidates: Vec<String>) -> HashMap<String, (u32, f32)> {
         let mut votes: HashMap<String, (u32, f32)> = HashMap::new();
         let mut total_votes: u32 = 0;
+        for candidate in &candidates {
+            votes.insert(candidate.clone(), (0, 0.0));
+        }
 
         // Sum votes for each candidate
         for region in &self.regions {
             for candidate in &region.1.votes {
-                total_votes += candidate.1;
                 if candidates.contains(&candidate.0) {
-                    votes.entry(candidate.0.clone()).or_insert((candidate.1.clone(), 0.0)).0 += candidate.1;
+                    total_votes += candidate.1;
+                    votes.get_mut(candidate.0).unwrap().0 += candidate.1;
                 }
             }
         }
@@ -112,11 +115,9 @@ impl Election {
                 }
             }
             // Correct for voter turnout
-            let voteshare_quotient = self.regions[region.0].clone().get_votes(voteshare.keys().cloned().collect()) as f32 / total_voteshare as f32;
-            println!("Correcting with a voteshare quotient of {} = {} / {}", voteshare_quotient, self.regions[region.0].clone().get_votes(voteshare.keys().cloned().collect()), total_voteshare);
+            let voteshare_quotient = total_voteshare as f32 / self.regions[region.0].clone().get_votes(voteshare.keys().cloned().collect()) as f32;
             for candidate in self.regions[region.0].votes.clone() {
                 if voteshare.contains_key(&candidate.0) {
-                    println!("{}", candidate.1);
                     self.regions.get_mut(region.0).unwrap().votes.insert(candidate.0.to_string(), (candidate.1.clone() as f32 * voteshare_quotient) as u32);
                 }
             }
