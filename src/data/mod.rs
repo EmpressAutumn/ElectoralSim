@@ -100,3 +100,12 @@ pub(crate) struct Scenario {
     id: String,
     elections: Vec<Election>
 }
+
+impl Scenario {
+    pub(crate) fn default() -> Scenario {
+        Scenario {
+            id: "default".parse().unwrap(),
+            elections: Vec::new()
+        }
+    }
+}
