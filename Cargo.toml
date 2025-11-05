@@ -5,3 +5,9 @@ edition = "2024"
 
 [dependencies]
 serde_json = "1.0.145"
+slint = "1.12.1"
+csv = "1.4.0"
+rfd = "0.15.4"
+
+[build-dependencies]
+slint-build = "1.12.1"

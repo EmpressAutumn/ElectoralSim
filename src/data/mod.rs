@@ -1,3 +1,5 @@
+mod import;
+
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::{Read, Write};
@@ -9,7 +11,7 @@ pub(crate) struct Region {
 
 impl Region {
     // Constructor
-    pub(crate) fn new(votes: HashMap<String, u32>) -> Region { Region{votes} }
+    pub(crate) fn new(votes: HashMap<String, u32>) -> Region { Region {votes} }
 
     // Getter
     pub(crate) fn get_votes(&self, candidates: Vec<String>) -> u32 {
@@ -31,7 +33,7 @@ pub(crate) struct Election {
 
 impl Election {
     // Constructor
-    pub(crate) fn new(id: String) -> Election { Election{id, regions: HashMap::new()} }
+    pub(crate) fn new(id: String) -> Election { Election {id, regions: HashMap::new()} }
 
     // Input/Output
     pub(crate) fn load_file(file_name: &str) -> Election {

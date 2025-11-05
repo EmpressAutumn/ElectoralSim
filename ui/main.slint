@@ -1,0 +1,37 @@
+export component MainWindow inherits Window {
+    width: 400px;
+    height: 300px;
+    title: "Electoral Simulator";
+
+    callback open_requested();
+    callback save_requested();
+    callback import_requested();
+    callback quit_requested();
+
+    MenuBar {
+        Menu {
+            title: @tr("File");
+            MenuItem {
+                title: "Open";
+                activated => { root.open_requested(); }
+            }
+            MenuItem {
+                title: "Save";
+                activated => { root.save_requested(); }
+            }
+            MenuItem {
+                title: "Import";
+                activated => { root.import_requested(); }
+            }
+            MenuItem {
+                title: @tr("Quit");
+                activated => { root.quit_requested(); }
+            }
+        }
+    }
+
+    Text {
+        text: "hello world";
+        color: green;
+    }
+}
