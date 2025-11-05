@@ -5,6 +5,7 @@ use std::collections::HashMap;
 use std::io::stdin;
 
 use data::Election;
+use crate::data::io;
 
 slint::include_modules!();
 
@@ -19,14 +20,14 @@ fn main() -> Result<(), slint::PlatformError> {
             .set_title("Open File")
             .pick_file()
         {
-            println!("User opened file: {}", path.display());
+            io::open(path);
         }
     });
     main_window.on_import_requested(|| {
         if let Some(path) = rfd::FileDialog::new()
             .add_filter("Comma separated value files", &["csv"])
             .add_filter("All files", &["*"])
-            .set_title("Open File")
+            .set_title("Import File")
             .pick_file()
         {
             println!("User imported file: {}", path.display());

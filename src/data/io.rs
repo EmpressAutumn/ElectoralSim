@@ -4,7 +4,7 @@ use std::io::{Read, Write};
 use crate::data::{Election, Region, Scenario};
 
 // Opens an ElectoralSim format JSON and returns the Scenario contained inside
-pub(crate) fn load(file_name: &str) -> Election {
+pub(crate) fn open(file_name: std::path::PathBuf) -> Election {
     let mut file = File::open(file_name).unwrap();
     let mut file_contents = String::new();
     file.read_to_string(&mut file_contents).unwrap();
@@ -22,7 +22,7 @@ pub(crate) fn load(file_name: &str) -> Election {
 }
 
 // Converts a Scenario to a ElectoralSim format JSON
-pub(crate) fn save(scenario: Scenario, file_name: &str) {
+pub(crate) fn save(scenario: Scenario, file_name: std::path::PathBuf) {
     let mut json: serde_json::Value = serde_json::from_str("{}").expect("JSON was not well-formatted");
     json["id"] = serde_json::Value::String(scenario.id.clone());
     for election in &scenario.elections {
@@ -38,6 +38,6 @@ pub(crate) fn save(scenario: Scenario, file_name: &str) {
 }
 
 // Imports a properly-formatted CSV file as a single-election Scenario
-pub(crate) fn import_file(file_name: &str) {
+pub(crate) fn import_file(file_name: std::path::PathBuf) {
     // Rewrite from convert.rs and csv2json.py
 }
