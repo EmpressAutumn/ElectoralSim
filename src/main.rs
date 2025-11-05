@@ -1,10 +1,7 @@
 mod convert;
 mod data;
 
-use std::collections::HashMap;
-use std::io::stdin;
-
-use data::Election;
+use slint::VecModel;
 use crate::data::{io, Scenario};
 
 slint::include_modules!();
@@ -37,6 +34,12 @@ fn main() -> Result<(), slint::PlatformError> {
     main_window.on_quit_requested(|| {
         std::process::exit(0);
     });
+
+    // TabWidget
+    let tabs = std::rc::Rc::new(VecModel::from(vec![
+        TabInfo { title: "Home".into(), content: "Welcome to the home tab!".into() },
+        TabInfo { title: "About".into(), content: "This app uses Slint!".into() },
+    ]));
 
     main_window.run()
 }
