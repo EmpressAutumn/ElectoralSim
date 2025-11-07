@@ -25,14 +25,14 @@ impl Region {
 }
 
 #[derive(Clone)]
-pub(crate) struct Election {
+pub(crate) struct Race {
     id: String,
     regions: HashMap<String, Region>
 }
 
-impl Election {
+impl Race {
     // Constructor
-    pub(crate) fn new(id: String) -> Election { Election {id, regions: HashMap::new()} }
+    pub(crate) fn new(id: String) -> Race { Race {id, regions: HashMap::new()} }
 
     // Getters
     pub(crate) fn get_votes_full(&self) -> HashMap<String, (u32, f32)> {
@@ -96,16 +96,41 @@ impl Election {
 }
 
 #[derive(Clone)]
+pub(crate) struct Election {
+    date: String,
+    races: Vec<Race>
+}
+
+impl Election {
+    pub(crate) fn new(date: String) -> Election {
+        Election {
+            date,
+            races: Vec::new()
+        }
+    }
+    pub(crate) fn date(&self) -> &str { &self.date }
+}
+
+#[derive(Clone)]
 pub(crate) struct Scenario {
-    id: String,
+    name: String,
     elections: Vec<Election>
 }
 
 impl Scenario {
     pub(crate) fn default() -> Scenario {
         Scenario {
-            id: "default".parse().unwrap(),
+            name: "default".parse().unwrap(),
             elections: Vec::new()
         }
     }
+    
+    pub(crate) fn new(name: String) -> Scenario {
+        Scenario {
+            name,
+            elections: Vec::new()
+        }
+    }
+    
+    pub(crate) fn elections(&self) -> &Vec<Election> { &self.elections }
 }

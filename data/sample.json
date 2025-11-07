@@ -1,0 +1,25 @@
+{
+  "name": "Empire of Mars",
+  "elections": {
+    "1992-11-03": {
+      "races": {
+        "president": {
+          "regions": {
+            "AL": {
+              "Clinton": 690080,
+              "Bush": 804283,
+              "Perot": 183109,
+              "others": 10588
+            },
+            "AK": {
+              "Clinton": 78294,
+              "Bush": 102000,
+              "Perot": 73481,
+              "others": 4731
+            }
+          }
+        }
+      }
+    }
+  }
+}

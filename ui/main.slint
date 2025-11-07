@@ -1,13 +1,6 @@
-import { TabWidget } from "std-widgets.slint";
-
-export struct TabInfo {
-    title: string,
-    content: string,
-}
-
 export component MainWindow inherits Window {
-    width: 400px;
-    height: 300px;
+    width: 800px;
+    height: 600px;
     title: "Electoral Simulator";
 
     callback open_requested();
@@ -15,37 +8,13 @@ export component MainWindow inherits Window {
     callback import_requested();
     callback quit_requested();
 
-    in property <[TabInfo]> tabs;
-    property <int> current_index: 0;
-
     MenuBar {
         Menu {
             title: @tr("File");
-            MenuItem {
-                title: "Open";
-                activated => { root.open_requested(); }
-            }
-            MenuItem {
-                title: "Save";
-                activated => { root.save_requested(); }
-            }
-            MenuItem {
-                title: "Import";
-                activated => { root.import_requested(); }
-            }
-            MenuItem {
-                title: @tr("Quit");
-                activated => { root.quit_requested(); }
-            }
-        }
-    }
-
-    TabWidget {
-        Tab {
-            title: "November 2024";
-        }
-        Tab {
-            title: "November 2025";
+            MenuItem { title: @tr("Open"); activated => { root.open_requested(); } }
+            MenuItem { title: @tr("Save"); activated => { root.save_requested(); } }
+            MenuItem { title: @tr("Import"); activated => { root.import_requested(); } }
+            MenuItem { title: @tr("Quit"); activated => { root.quit_requested(); } }
         }
     }
 
