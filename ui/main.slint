@@ -4,13 +4,16 @@ export struct SlintElection {
     date: string
 }
 
+export struct SlintRace {
+    id: string
+}
+
 export component MainWindow inherits Window {
     width: 800px;
     height: 600px;
     title: "Electoral Simulator";
 
-    in property <[SlintElection]> elections;
-
+    // Menubar
     callback new_requested();
     callback open_requested();
     callback save_requested();
@@ -29,6 +32,10 @@ export component MainWindow inherits Window {
     }
 
     // Election Tabs
+    in property <[SlintElection]> elections;
+
+    callback select_election(e_num: int);
+
     Rectangle {
         x: 0;
         y: 0;
@@ -41,6 +48,26 @@ export component MainWindow inherits Window {
                     width: parent.width;
                     height: 25px;
                     text: election.date;
+                    clicked => { select_election(i); }
+                }
+            }
+        }
+    }
+
+    // Race Tabs
+    in property <[SlintRace]> races;
+
+    Rectangle {
+        x: 0;
+        y: 25px;
+        width: 15%;
+
+        VerticalLayout {
+            for race[i] in races : Rectangle {
+                Button {
+                    width: parent.width;
+                    height: 25px;
+                    text: race.id;
                     clicked => { }
                 }
             }

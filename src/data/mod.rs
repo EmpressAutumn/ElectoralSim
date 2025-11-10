@@ -35,6 +35,7 @@ impl Race {
     pub(crate) fn new(id: String) -> Race { Race {id, regions: HashMap::new()} }
 
     // Getters
+    pub(crate) fn id(&self) -> &str { &self.id }
     pub(crate) fn get_votes_full(&self) -> HashMap<String, (u32, f32)> {
         let mut candidates: Vec<String> = Vec::new();
         for region in &self.regions {
@@ -109,6 +110,7 @@ impl Election {
         }
     }
     pub(crate) fn date(&self) -> &str { &self.date }
+    pub(crate) fn races(&self) -> &Vec<Race> { &self.races }
 }
 
 #[derive(Clone)]

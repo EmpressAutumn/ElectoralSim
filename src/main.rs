@@ -1,8 +1,8 @@
 mod data;
 
-use std::sync::{LazyLock, Mutex};
-use slint::{Model, ToSharedString, VecModel};
 use crate::data::{io, Scenario};
+use slint::ToSharedString;
+use std::sync::{LazyLock, Mutex};
 
 slint::include_modules!();
 
@@ -50,6 +50,20 @@ fn main() -> Result<(), slint::PlatformError> {
     });
     window.on_quit_requested(|| {
         std::process::exit(0);
+    });
+
+    // Tabs callbacks
+    window.on_select_election({
+        let window_weak = window_weak.clone();
+        move |e_num: i32| {
+            if let Some(window) = window_weak.upgrade() {
+                let mut races: Vec<SlintRace> = Vec::new();
+                for race in SCENARIO.lock().unwrap().elections().to_vec()[e_num as usize].races() {
+                    races.push(SlintRace { id: race.id().to_shared_string() });
+                }
+                window.set_races(std::rc::Rc::new(slint::VecModel::from(races)).clone().into());
+            }
+        }
     });
 
     window.run()
