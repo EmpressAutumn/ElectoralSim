@@ -120,7 +120,7 @@ pub(crate) struct Scenario {
 impl Scenario {
     pub(crate) fn default() -> Scenario {
         Scenario {
-            name: "default".parse().unwrap(),
+            name: "default".to_string(),
             elections: Vec::new()
         }
     }

@@ -27,14 +27,6 @@ pub(crate) fn open(file_name: std::path::PathBuf) -> Scenario {
         scenario.elections.push(election_obj);
     }
 
-    let mut race = Race::new(json["id"].as_str().unwrap().to_string());
-    for region in json["regions"].as_object().unwrap().iter() {
-        let mut votes: HashMap<String, u32> = HashMap::new();
-        for candidate in region.1.as_object().unwrap().iter() {
-            votes.insert(candidate.0.to_string(), candidate.1.as_number().unwrap().as_u128().unwrap() as u32);
-        }
-        race.regions.insert(region.0.to_string(), Region::new(votes));
-    }
     scenario
 }
 
@@ -57,6 +49,46 @@ pub(crate) fn save(scenario: Scenario, file_name: std::path::PathBuf) {
 }
 
 // Imports a properly-formatted CSV file as a single-election Scenario
-pub(crate) fn import_file(file_name: std::path::PathBuf) {
-    // Rewrite from convert.rs and csv2json.py
+pub(crate) fn import(path: std::path::PathBuf) -> Scenario {
+    let file = path.file_stem().and_then(|s| s.to_str()) .unwrap_or("").to_string();
+    let mut regions: HashMap<String, Region> = HashMap::new();
+
+    /*
+    election = {
+        "id": file_name,
+        "regions": {}
+    }
+
+    election_dict = {}
+
+    with open(f"{file_name}.csv", mode='r') as file:
+        csv_reader = csv.reader(file)
+        headers = next(csv_reader)
+        for row in csv_reader:
+            key = row[0]
+            election_dict[key] = {headers[i]: row[i] for i in range(1, len(headers))}
+
+    for state, results in election_dict.items():
+        state_results = {}
+        for candidate, votes in results.items():
+            state_results[candidate] = int(votes.replace(',', ''))
+        election["regions"][state] = state_results
+
+    json.dump(election, open(f"{file_name}.json", "w"))
+    */
+
+    Scenario {
+        name: file,
+        elections: Vec::from([
+            Election {
+                date: "0000-00-00".to_string(),
+                races: Vec::from([
+                    Race {
+                        id: "unknown".to_string(),
+                        regions
+                    }
+                ])
+            }
+        ])
+    }
 }

@@ -1,8 +1,17 @@
+import { Button } from "std-widgets.slint";
+
+export struct SlintElection {
+    date: string
+}
+
 export component MainWindow inherits Window {
     width: 800px;
     height: 600px;
     title: "Electoral Simulator";
 
+    in property <[SlintElection]> elections;
+
+    callback new_requested();
     callback open_requested();
     callback save_requested();
     callback import_requested();
@@ -11,15 +20,30 @@ export component MainWindow inherits Window {
     MenuBar {
         Menu {
             title: @tr("File");
-            MenuItem { title: @tr("Open"); activated => { root.open_requested(); } }
+            MenuItem { title: @tr("New"); activated => { root.new_requested(); } }
+            MenuItem { title: @tr("Open");  activated => { root.open_requested(); } }
             MenuItem { title: @tr("Save"); activated => { root.save_requested(); } }
             MenuItem { title: @tr("Import"); activated => { root.import_requested(); } }
             MenuItem { title: @tr("Quit"); activated => { root.quit_requested(); } }
         }
     }
 
-    Text {
-        text: "hello world";
-        color: green;
+    // Election Tabs
+    Rectangle {
+        x: 0;
+        y: 0;
+        width: 100%;
+        height: 25px;
+
+        HorizontalLayout {
+            for election[i] in elections : Rectangle {
+                Button {
+                    width: parent.width;
+                    height: 25px;
+                    text: election.date;
+                    clicked => { }
+                }
+            }
+        }
     }
 }
